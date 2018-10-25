@@ -1,7 +1,25 @@
-/*var rV = 100/1000;  //рождаемость жертвы
-var dV = 300/100000; //Смертность жертвы
-var dP = 70/1000; // смертность хищника
-var kP = 80/1000000; //коэф.хищника
-var g = 500; //поколение
-var victimStart = 1000; // нач. кол-во жертв
-var predatorStart = 100; // нач. кол-во хищников*/
+ body {
+	background-color: lightblue;
+	}
+.field div{
+	background-color: lightgreen;
+	height: all;
+	width: all;
+	display: inline-block;
+		
+}
+.inputValue {
+	background-color: pink;
+	width: all;
+	height: all;
+	align-items: center;
+	justify-content: center;
+}
+.chart {
+	/*background-color: lightgreen;*/
+}
+p {
+	background-color: white;
+	align-items: center;
+	text-align: right;
+}
