@@ -1,25 +1,33 @@
- body {
-	background-color: lightblue;
+* { margin: 0; padding: 0; }
+  body {
+	text-align: center;
+	justify-content: center;
 	}
 .field div{
-	background-color: lightgreen;
 	height: all;
 	width: all;
-	display: inline-block;
+	
 		
 }
+.field {
+	display: inline-block;
+}
 .inputValue {
-	background-color: pink;
-	width: all;
+	width: 750px;
 	height: all;
 	align-items: center;
 	justify-content: center;
 }
-.chart {
-	/*background-color: lightgreen;*/
-}
+
+
 p {
-	background-color: white;
 	align-items: center;
 	text-align: right;
+	width: all;
+	margin-top: 5px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+input {
+	margin-bottom: 5px;
 }
